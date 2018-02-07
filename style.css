@@ -1,0 +1,148 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	font-family: 'Arvo', serif;
+	background-color: #ff9999;
+	color: #fb6f6a;
+}
+img {
+	margin: 0 25px;
+}
+b {
+	color: #6699cc;
+}
+p {
+	padding: 0;
+}
+h2 {
+	font-family: 'Lobster', cursive;
+	color: #ff9999;
+	padding: 0;
+	margin: 5;
+	padding-left: 1em;
+}
+h3 {
+	text-indent: 3em;
+	font-family: 'Arvo', serif;
+	font-weight: 100;
+	color: #6699cc;
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: #6699cc;
+}
+a:hover {
+	color: #fb6f6a;
+}
+ul.nav>li {
+	display: block;
+	margin: 10px 0;
+}
+.nav {
+	margin: 0 auto;
+}
+hr {
+	border: 1px dashed #ff9999;
+	min-width: 150px;
+	width: 60%;
+	height: 0px;
+}
+a.code {
+	color: #888;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+code {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: smaller;
+}
+.source {
+	font-size: smaller;
+}
+#container {
+	background-color: #ffffff;
+	padding: 1em;
+	width: 80%;
+	margin: 0 auto;
+	border: 2px dashed #ff9999;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+}
+.circular {
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(255, 153, 153, .8);
+	-moz-box-shadow: 0 0 8px rgba(255, 153, 153, .8)
+}
+.header {
+	text-align: left;
+}
+
+.before {
+	width: 48%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	color: #888888;
+	text-align: left;
+	float: left;
+	padding: 4px;
+	/* test */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+}
+.after {
+	width: 48%;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	color: #888888;
+	text-align: left;
+	float: right;
+	padding: 4px;
+	/* test */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+
+}
+.quote {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: smaller;
+	text-indent: 3em;
+	
+}
+p.outside {
+	padding: 0 3em;
+	margin: 0;
+	text-indent: 3em;
+	line-height: 1.5em;
+	text-align: justify;
+}
+h1 {
+	font-family: 'Arvo', serif;
+	margin: 0;
+}
+.highlight {
+	background-color: #FFED00;
+}
+.my-gallery {
+	width: 100%;
+	float: left;
+}
+.my-gallery img {
+	width: 100%;
+	height: auto;
+}
+.my-gallery figure {
+	display: block;
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 150px;
+}
+.my-gallery figcaption {
+	display: none;
+}
